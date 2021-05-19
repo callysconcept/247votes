@@ -1,0 +1,36 @@
+{
+  "name": "com.callysconcept.c247votes",
+  "displayName": "247votes",
+  "version": "2.0.0",
+  "description": "Nigeria's First Online Voting Platform | 247Votes NIG LTD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "devDependencies": {
+     "cordova-android": "^9.1.0",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+  "preferences": {
+      "phonegap-version": "cli-9.0.0",
+      "pgb-builder-version": "2",
+      "android-minSdkVersion": "19",
+      "android-targetSdkVersion": "29",
+      "target-device": "universal",
+      "loadUrlTimeoutValue": "60000",
+      "DisallowOverscroll": "true"
+    },
+    "plugins": {
+      "cordova-plugin-whitelist": {}
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
