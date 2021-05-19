@@ -1200,8 +1200,9 @@ var a = getUsername();
 var b = getName();
 var link = 'https://247votes.com.ng/ads/?contact='+phone+'&user='+a+'&name='+b;
 $('.ads-banner').html('<a href="'+link+'" target="_blank"><img src="'+img+'" width="100%"></a>');
+if(arr2[2] == "2")
 $('#ads-banner2').html('<a href="'+link+'" target="_blank"><img src="'+img+'" width="100%" style="max-height:35px"></a>');
-setTimeout(showAds,15000);
+setTimeout(showAds,10000);
 }
 
 
