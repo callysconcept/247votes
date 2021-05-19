@@ -37,7 +37,7 @@
      <!--<plugin name="Contacts" value="org.apache.cordova.ContactManager" /> -->  
     <allow-intent href="market:*"/>
     <!-- ONESIGNAL-->
-    <resource-file src="images/logo.png" target="res/drawable-mdpi/ic_stat_onesignal_default.png" />
+    <source-file src="images/logo.png" target="res/drawable-mdpi/ic_stat_onesignal_default.png" />
     
     <icon src="res/icon/android/mipmap-ldpi/247votes.png" density="ldpi"/>
     <icon src="res/icon/android/mipmap-mdpi/247votes.png" density="mdpi"/>
